@@ -1,0 +1,66 @@
+# Включаем модуль перезаписи URL
+RewriteEngine On
+
+# Базовый URL (если приложение находится в подкаталоге)
+# RewriteBase /
+
+
+# Обработка multicall запросов
+RewriteRule ^multicall/load$ api/load.php [L]
+RewriteRule ^multicall/load-spa$ api/load_spa.php [L]
+RewriteRule ^api/partners$ api/partners.php [L]
+RewriteRule ^order/load$ api/order_load.php [L]
+RewriteRule ^order/calculate$ api/calculate.php [L]
+RewriteRule ^order/create$ api/create.php [L]
+RewriteRule ^order/retrieve$ api/retrieve.php [L]
+RewriteRule ^settings$ api/settings.php [L]
+RewriteRule ^chat/load$ api/chat_load.php [L]
+RewriteRule ^faqs$ api/faqs.php [L]
+RewriteRule ^page$ api/page.php [L]
+RewriteRule ^api/contacts$ api/contacts.php [L]
+RewriteRule ^socials$ api/socials.php [L]
+
+
+
+RewriteRule ^order/confirm$ api/confirm.php [L]
+RewriteRule ^order/([0-9]+)$ /order.php?order_id=$1 [L]
+
+
+# Разрешаем доступ к реальным файлам и директориям
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Разрешаем доступ к JS, CSS, изображениям и другим статическим файлам
+RewriteCond %{REQUEST_URI} !\.(?:css|js|jpg|jpeg|png|gif|ico|svg|woff|woff2|ttf|eot|map)$ [NC]
+
+# Перенаправляем все остальные запросы на index.html
+RewriteRule ^ index.php [L]
+
+# Устанавливаем правильные типы MIME
+<IfModule mod_mime.c>
+  AddType application/javascript .js
+  AddType text/css .css
+</IfModule>
+
+# Устанавливаем заголовки кэширования для статических ресурсов
+<IfModule mod_expires.c>
+  ExpiresActive On
+  
+  # Изображения
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  
+  # Шрифты
+  ExpiresByType application/font-woff "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+  ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+  ExpiresByType application/x-font-ttf "access plus 1 year"
+  ExpiresByType font/opentype "access plus 1 year"
+</IfModule>

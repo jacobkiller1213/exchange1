@@ -1,0 +1,859 @@
+[
+  {
+    "id": "1",
+    "code": "BITGO_BTC",
+    "best_code": "BTC",
+    "name": "Bitcoin (BTC)",
+    "min_amount": 0.0470822,
+    "max_amount": 1.209014
+  },
+  {
+    "id": "2",
+    "code": "BITGO_LTC",
+    "best_code": "LTC",
+    "name": "Litecoin (LTC)",
+    "min_amount": 0.5,
+    "max_amount": 150
+  },
+  {
+    "id": "20",
+    "code": "BITGO_BCH",
+    "best_code": "BCH",
+    "name": "Bitcoin Cash (BCH)",
+    "min_amount": 0.25,
+    "max_amount": 50
+  },
+  {
+    "id": "21",
+    "code": "BITGO_ZEC",
+    "best_code": "ZEC",
+    "name": "Zcash (ZEC)",
+    "min_amount": 0.3,
+    "max_amount": 100
+  },
+  {
+    "id": "22",
+    "code": "BITGO_DASH",
+    "best_code": "DASH",
+    "name": "Dash (DASH)",
+    "min_amount": 0.4,
+    "max_amount": 80
+  },
+ 
+  {
+    "id": "67",
+    "code": "BITGO_ETH",
+    "best_code": "ETH",
+    "name": "Ethereum (ETH)",
+    "min_amount": 0.1,
+    "max_amount": 20
+  },
+  {
+    "id": "68",
+    "code": "BITGO_USDT",
+    "best_code": "USDTERC20",
+    "name": "Tether ERC20 (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "70",
+    "code": "REAL_MONEY_RUB",
+    "best_code": "CASHRUB",
+    "name": "Наличные RUB",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "74",
+    "code": "BITGO_XRP",
+    "best_code": "XRP",
+    "name": "Ripple (XRP)",
+    "min_amount": 50,
+    "max_amount": 50000
+  },
+  {
+    "id": "76",
+    "code": "BITGO_XLM",
+    "best_code": "XLM",
+    "name": "Stellar (XLM)",
+    "min_amount": 100,
+    "max_amount": 100000
+  },
+  {
+    "id": "100",
+    "code": "BITGO_USDC",
+    "best_code": "USDCERC20",
+    "name": "USD Coin ERC20 (USDC)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "102",
+    "code": "WHITE_TRC20",
+    "best_code": "USDTTRC20",
+    "name": "Tether TRC20 (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "105",
+    "code": "WHITE_ERC20",
+    "best_code": "USDTERC20",
+    "name": "Tether ERC20 (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "109",
+    "code": "WHITE_ETH",
+    "best_code": "ETH",
+    "name": "Ethereum (ETH)",
+    "min_amount": 0.1,
+    "max_amount": 20
+  },
+  {
+    "id": "113",
+    "code": "REAL_MONEY_TETHER_TRC",
+    "best_code": "USDTTRC20",
+    "name": "Tether TRC20 (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "122",
+    "code": "WHITE_TRX",
+    "best_code": "TRX",
+    "name": "Tron (TRX)",
+    "min_amount": 20,
+    "max_amount": 500000
+  },
+  {
+    "id": "127",
+    "code": "WHITE_USDC_TRC20",
+    "best_code": "USDCTRC20",
+    "name": "USD Coin (USDC TRC20)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "138",
+    "code": "WHITE_DOT",
+    "best_code": "DOT",
+    "name": "Polkadot (DOT)",
+    "min_amount": 5,
+    "max_amount": 1000
+  },
+  {
+    "id": "139",
+    "code": "WHITE_CONVERT_USDT_TRC20",
+    "best_code": "USDTTRC20",
+    "name": "Tether TRC20 (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "140",
+    "code": "WHITE_CONVERT_LTC",
+    "best_code": "LTC",
+    "name": "Litecoin (LTC)",
+    "min_amount": 0.5,
+    "max_amount": 150
+  },
+  {
+    "id": "141",
+    "code": "WHITE_CONVERT_BTC",
+    "best_code": "BTC",
+    "name": "Bitcoin (BTC)",
+    "min_amount": 0.0470822,
+    "max_amount": 1.209014
+  },
+  {
+    "id": "142",
+    "code": "WHITE_CONVERT_BCH",
+    "best_code": "BCH",
+    "name": "Bitcoin Cash (BCH)",
+    "min_amount": 0.25,
+    "max_amount": 50
+  },
+  {
+    "id": "143",
+    "code": "WHITE_CONVERT_ZEC",
+    "best_code": "ZEC",
+    "name": "Zcash (ZEC)",
+    "min_amount": 0.3,
+    "max_amount": 100
+  },
+  {
+    "id": "144",
+    "code": "WHITE_CONVERT_XRP",
+    "best_code": "XRP",
+    "name": "Ripple (XRP)",
+    "min_amount": 50,
+    "max_amount": 50000
+  },
+  {
+    "id": "145",
+    "code": "WHITE_CONVERT_XLM",
+    "best_code": "XLM",
+    "name": "Stellar (XLM)",
+    "min_amount": 100,
+    "max_amount": 100000
+  },
+  {
+    "id": "146",
+    "code": "WHITE_CONVERT_XMR",
+    "best_code": "XMR",
+    "name": "Monero (XMR)",
+    "min_amount": 0.5,
+    "max_amount": 50
+  },
+  {
+    "id": "147",
+    "code": "WHITE_CONVERT_DOGE",
+    "best_code": "DOGE",
+    "name": "Dogecoin (DOGE)",
+    "min_amount": 100,
+    "max_amount": 100000
+  },
+  {
+    "id": "148",
+    "code": "WHITE_CONVERT_ETC",
+    "best_code": "ETC",
+    "name": "Ethereum Classic (ETC)",
+    "min_amount": 2,
+    "max_amount": 500
+  },
+  {
+    "id": "149",
+    "code": "WHITE_CONVERT_ETH",
+    "best_code": "ETH",
+    "name": "Ethereum (ETH)",
+    "min_amount": 0.1,
+    "max_amount": 20
+  },
+  {
+    "id": "151",
+    "code": "WHITE_CONVERT_TRX",
+    "best_code": "TRX",
+    "name": "Tron (TRX)",
+    "min_amount": 500,
+    "max_amount": 500000
+  },
+  {
+    "id": "152",
+    "code": "WHITE_CONVERT_DOT",
+    "best_code": "DOT",
+    "name": "Polkadot (DOT)",
+    "min_amount": 5,
+    "max_amount": 1000
+  },
+  {
+    "id": "153",
+    "code": "WHITE_CONVERT_DASH",
+    "best_code": "DASH",
+    "name": "Dash (DASH)",
+    "min_amount": 0.4,
+    "max_amount": 80
+  },
+  {
+    "id": "154",
+    "code": "WHITE_CONVERT_USDT_ERC20",
+    "best_code": "USDTERC20",
+    "name": "Tether ERC20 (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "159",
+    "code": "WHITE_CONVERT_USDC_ERC20",
+    "best_code": "USDCERC20",
+    "name": "USD Coin (USDC ERC20)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "162",
+    "code": "WHITE_CONVERT_ADA",
+    "best_code": "ADA",
+    "name": "Cardano (ADA)",
+    "min_amount": 50,
+    "max_amount": 20000
+  },
+  {
+    "id": "175",
+    "code": "WHITE_CONVERT_SOL",
+    "best_code": "SOL",
+    "name": "Solana (SOL)",
+    "min_amount": 0,
+    "max_amount": 500
+  },
+  {
+    "id": "176",
+    "code": "WHITE_CONVERT_MATIC",
+    "best_code": "MATIC",
+    "name": "Polygon (MATIC)",
+    "min_amount": 50,
+    "max_amount": 10000
+  },
+  {
+    "id": "177",
+    "code": "WHITE_CONVERT_DAI",
+    "best_code": "DAI",
+    "name": "Dai (DAI)",
+    "min_amount": 200,
+    "max_amount": 50000
+  },
+  {
+    "id": "187",
+    "code": "WHITE_WBT_TRC20",
+    "best_code": "WBT_TRC20_TEST",
+    "name": "WhiteBIT Token TRC-20",
+    "min_amount": 10,
+    "max_amount": 5000
+  },
+  {
+    "id": "188",
+    "code": "WHITE_WBT_ERC20",
+    "best_code": "WBT_ERC20_TEST",
+    "name": "WhiteBIT Token ERC-20",
+    "min_amount": 10,
+    "max_amount": 5000
+  },
+  {
+    "id": "213",
+    "code": "BITGO_DOGE",
+    "best_code": "DOGE",
+    "name": "Dogecoin (DOGE)",
+    "min_amount": 100,
+    "max_amount": 100000
+  },
+  {
+    "id": "220",
+    "code": "WHITE_CONVERT_ETH_OP",
+    "best_code": "ETHOP",
+    "name": "Ethereum Optimism (ETH)",
+    "min_amount": 0.1,
+    "max_amount": 20
+  },
+  {
+    "id": "221",
+    "code": "WHITE_CONVERT_ETH_ARB",
+    "best_code": "ETHARB",
+    "name": "Ethereum Arbitrum (ETH)",
+    "min_amount": 0.1,
+    "max_amount": 20
+  },
+  {
+    "id": "222",
+    "code": "WHITE_CONVERT_ARB",
+    "best_code": "ARB",
+    "name": "Arbitrum one (ARB)",
+    "min_amount": 20,
+    "max_amount": 5000
+  },
+  {
+    "id": "226",
+    "code": "BITGO_DAI",
+    "best_code": "DAI",
+    "name": "Dai (DAI)",
+    "min_amount": 200,
+    "max_amount": 50000
+  },
+  {
+    "id": "227",
+    "code": "IVANPAY_SBER",
+    "best_code": "SBERRUB",
+    "name": "Сбербанк RUB",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "228",
+    "code": "IVANPAY_TCSB",
+    "best_code": "TCSBRUB",
+    "name": "Т-Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "229",
+    "code": "IVANPAY_AC",
+    "best_code": "ACRUB",
+    "name": "Альфа-Банк RUB",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "230",
+    "code": "IVANPAY_RNKB",
+    "best_code": "RNKBRUB",
+    "name": "РНКБ",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "231",
+    "code": "IVANPAY_OPNB",
+    "best_code": "OPNBRUB",
+    "name": "Открытие",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "232",
+    "code": "IVANPAY_RUSST",
+    "best_code": "RUSSTRUB",
+    "name": "Русский Стандарт",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "233",
+    "code": "IVANPAY_AVB",
+    "best_code": "AVBRUB",
+    "name": "Авангард",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "234",
+    "code": "IVANPAY_RFB",
+    "best_code": "RFBRUB",
+    "name": "Райффайзен RUB",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "235",
+    "code": "IVANPAY_GPB",
+    "best_code": "GPBRUB",
+    "name": "Газпромбанк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "236",
+    "code": "IVANPAY_POSTB",
+    "best_code": "POSTBRUB",
+    "name": "Почта банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "237",
+    "code": "IVANPAY_RSHB",
+    "best_code": "RSHBRUB",
+    "name": "Россельхозбанк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "238",
+    "code": "IVANPAY_ROSB",
+    "best_code": "ROSBRUB",
+    "name": "Росбанк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "241",
+    "code": "TWINKLEPICK_BNB20",
+    "best_code": "BNBBEP20",
+    "name": "Binance Coin (BNB BEP20)",
+    "min_amount": 0.3,
+    "max_amount": 50
+  },
+  {
+    "id": "243",
+    "code": "FIREPAY_TINKOFF",
+    "best_code": "TCSBRUB",
+    "name": "Тинькофф",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "244",
+    "code": "FIREPAY_SBERBANK",
+    "best_code": "SBERRUB",
+    "name": "Сбербанк RUB",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "245",
+    "code": "FIREPAY_ALFABANK",
+    "best_code": "ACRUB",
+    "name": "Альфа-Банк RUB",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "246",
+    "code": "TWINKLEPICK_USDT_TRC20",
+    "best_code": "USDTTRC20",
+    "name": "Tether TRC20 (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "248",
+    "code": "TWINKLEPICK_TRX",
+    "best_code": "TRX",
+    "name": "Tron (TRX)",
+    "min_amount": 500,
+    "max_amount": 500000
+  },
+  {
+    "id": "252",
+    "code": "IVANPAY_PSB",
+    "best_code": "PSBRUB",
+    "name": "Промсвязьбанк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "253",
+    "code": "IVANPAY_CARD",
+    "best_code": "CARDRUB",
+    "name": "Visa/MasterCard/Mir RUB",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "259",
+    "code": "IVANPAY_SBP",
+    "best_code": "SBPRUB",
+    "name": "СБП RUB",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "261",
+    "code": "FIREPAY_CARD_KZT",
+    "best_code": "CARDKZT",
+    "name": "Visa/MasterCard KZT",
+    "min_amount": 50000,
+    "max_amount": 3000000
+  },
+  {
+    "id": "262",
+    "code": "IVANPAY_MTSB",
+    "best_code": "MTSBRUB",
+    "name": "МТС Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "263",
+    "code": "IVANPAY_SVCMB",
+    "best_code": "SVCMBRUB",
+    "name": "Совкомбанк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "264",
+    "code": "TWINKLEPICK_USDT_TRC20_KZT",
+    "best_code": "USDTTRC20",
+    "name": "Tether TRC20 (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "268",
+    "code": "IVANPAY_OZONB",
+    "best_code": "OZNRUB",
+    "name": "OZON Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "269",
+    "code": "FIREPAY_KASPI_KZT",
+    "best_code": "KSPBKZT",
+    "name": "Kaspi Bank KZT",
+    "min_amount": 50000,
+    "max_amount": 3000000
+  },
+  {
+    "id": "270",
+    "code": "FIREPAY_HALYK_KZT",
+    "best_code": "HLKBKZT",
+    "name": "HalykBank KZT",
+    "min_amount": 50000,
+    "max_amount": 3000000
+  },
+  {
+    "id": "271",
+    "code": "FIREPAY_JUSAN_KZT",
+    "best_code": "JSNBKZT",
+    "name": "Jusan Bank KZT",
+    "min_amount": 50000,
+    "max_amount": 3000000
+  },
+  {
+    "id": "272",
+    "code": "FIREPAY_FREEDOM_KZT",
+    "best_code": "FFBKZT",
+    "name": "Фридом Банк KZT",
+    "min_amount": 50000,
+    "max_amount": 3000000
+  },
+  {
+    "id": "273",
+    "code": "FIREPAY_FORTE_KZT",
+    "best_code": "FRTBKZT",
+    "name": "ForteBank KZT",
+    "min_amount": 50000,
+    "max_amount": 3000000
+  },
+  {
+    "id": "274",
+    "code": "FIREPAY_CCB_KZT",
+    "best_code": "CCBKZT",
+    "name": "ЦентрКредит KZT",
+    "min_amount": 50000,
+    "max_amount": 3000000
+  },
+  {
+    "id": "275",
+    "code": "FIREPAY_BEREKE_KZT",
+    "best_code": "BRBKZT",
+    "name": "Bereke Bank KZT",
+    "min_amount": 50000,
+    "max_amount": 3000000
+  },
+  {
+    "id": "276",
+    "code": "FIREPAY_ERSNB_KZT",
+    "best_code": "ERSNBKZT",
+    "name": "Евразийский банк KZT",
+    "min_amount": 50000,
+    "max_amount": 3000000
+  },
+  {
+    "id": "277",
+    "code": "IVANPAY_AKBARSB",
+    "best_code": "AKBARSBRUB",
+    "name": "Ак Барс Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "278",
+    "code": "WHITE_CONVERT_TON",
+    "best_code": "TON",
+    "name": "Toncoin (TON)",
+    "min_amount": 41.32328624,
+    "max_amount": 2479.39717415
+  },
+  {
+    "id": "279",
+    "code": "IVANPAY_YNDXB",
+    "best_code": "YNDXRUB",
+    "name": "Яндекс Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "280",
+    "code": "WHITE_CONVERT_USDT_TON",
+    "best_code": "USDTTON",
+    "name": "Tether TON (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "281",
+    "code": "TWINKLEPICK_TON",
+    "best_code": "TON",
+    "name": "Toncoin (TON)",
+    "min_amount": 41.32328624,
+    "max_amount": 2479.39717415
+  },
+  {
+    "id": "282",
+    "code": "WHITE_CONVERT_USDT_SOL",
+    "best_code": "USDTSOL",
+    "name": "Tether SOL (USDT)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "283",
+    "code": "WHITE_CONVERT_USDC_SOL",
+    "best_code": "USDCSOL",
+    "name": "USD Coin (USDC SOL)",
+    "min_amount": 200,
+    "max_amount": 100000
+  },
+  {
+    "id": "284",
+    "code": "IVANPAY_URSB",
+    "best_code": "URSBRUB",
+    "name": "Уралсиб банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "285",
+    "code": "IVANPAY_OTPB",
+    "best_code": "OTPBRUB",
+    "name": "ОТП банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "286",
+    "code": "IVANPAY_UBRRB",
+    "best_code": "UBRRBRUB",
+    "name": "УБРиР Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "287",
+    "code": "IVANPAY_EXPO",
+    "best_code": "EXPORUB",
+    "name": "Экспобанк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "288",
+    "code": "IVANPAY_ZENIT",
+    "best_code": "ZENITRUB",
+    "name": "Зенит Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "289",
+    "code": "IVANPAY_PRIMSOCBANK",
+    "best_code": "PRIMSOCBANKRUB",
+    "name": "СКБ Примсоцбанк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "290",
+    "code": "IVANPAY_UNICREDITBANK",
+    "best_code": "UNICREDITBANKRUB",
+    "name": "ЮниКредит Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "291",
+    "code": "IVANPAY_LVBRSHNB",
+    "best_code": "LVBRSHNBRUB",
+    "name": "Банк Левобережный",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "292",
+    "code": "IVANPAY_BCSB",
+    "best_code": "BCSBRUB",
+    "name": "БКС банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "293",
+    "code": "IVANPAY_SLDRTB",
+    "best_code": "SLDRTBRUB",
+    "name": "Банк «Солидарность»",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "294",
+    "code": "IVANPAY_SBSCB",
+    "best_code": "SBSCBRUB",
+    "name": "Сибсоцбанк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "295",
+    "code": "IVANPAY_ABSLTB",
+    "best_code": "ABSLTBRUB",
+    "name": "Абсолют Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "296",
+    "code": "IVANPAY_FORA",
+    "best_code": "FORARUB",
+    "name": "Фора Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "297",
+    "code": "IVANPAY_UNISTREAM",
+    "best_code": "UNISTREAMRUB",
+    "name": "Юнистрим Банк",
+    "min_amount": 10000,
+    "max_amount": 600000
+  },
+  {
+    "id": "298",
+    "code": "IVANPAY_CIFRAB",
+    "best_code": "CIFRABRUB",
+    "name": "Цифра банк",
+    "min_amount": 0,
+    "max_amount": 0
+  },
+  {
+    "id": "299",
+    "code": "IVANPAY_ATB",
+    "best_code": "ATBRUB",
+    "name": "Азиатско-Тихоокеанский Банк",
+    "min_amount": 0,
+    "max_amount": 0
+  },
+  {
+    "id": "300",
+    "code": "IVANPAY_SDMB",
+    "best_code": "SDMBRUB",
+    "name": "СДМ-Банк",
+    "min_amount": 0,
+    "max_amount": 0
+  },
+  {
+    "id": "301",
+    "code": "IVANPAY_SVB",
+    "best_code": "SVBRUB",
+    "name": "Свой Банк",
+    "min_amount": 0,
+    "max_amount": 0
+  },
+  {
+    "id": "302",
+    "code": "IVANPAY_RNSNSB",
+    "best_code": "RNSNSBRUB",
+    "name": "Ренессанс Банк",
+    "min_amount": 0,
+    "max_amount": 0
+  },
+  {
+    "id": "303",
+    "code": "IVANPAY_INGOB",
+    "best_code": "INGOBRUB",
+    "name": "Ингосстрах Банк",
+    "min_amount": 0,
+    "max_amount": 0
+  },
+  {
+    "id": "304",
+    "code": "IVANPAY_ALMAZERGIENBANK",
+    "best_code": "ALMAZERGIENBANKRUB",
+    "name": "АКБ «Алмазэргиэнбанк» АО",
+    "min_amount": 0,
+    "max_amount": 0
+  }
+]

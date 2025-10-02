@@ -1,0 +1,52 @@
+{
+    "status": 200,
+    "data": {
+        "rate": {
+            "id": "1495983",
+            "url": "https:\/\/localhost:8888\/?from=BTC&to=USDTTRC20",
+            "active": "Y",
+            "currency_from": "141",
+            "currency_to": "139",
+            "type": "",
+            "tag": [],
+            "f_course_from": "1",
+            "f_course_to": "81 693.84692346",
+            "f_maxamount_from": "0.00086953",
+            "f_maxamount_to": "120.06003002",
+            "f_minamount_from": "0.00086953",
+            "f_minamount_to": "120.06003002",
+            "forced_floating_course": "N",
+            "f_balance": "0.19844073",
+            "reverseRateExists": "Y",
+            "url_currency_from_code": "BTC",
+            "url_currency_to_code": "USDTTRC20",
+            "isNeedVerificationForIncomingPay": "N",
+            "isNeedVerificationPhoneForIncomingPay": "Y",
+            "seo_rate_code": "",
+            "seo_h1": "\u041a\u0443\u043f\u0438\u0442\u044c Bitcoin (BTC) \u0437\u0430 Tether TRC20 (USDT)"
+        },
+        "order": {
+            "orderToken": "8b9e5b291defdeabf027a33b183811dce77d2065f6d92f8f22b83894e58d",
+            "rateTimeout": "30",
+            "email": "",
+            "wallet": "",
+            "sumTo": "",
+            "sumFrom": "",
+            "sumFromFee": "",
+            "amlWarning": "Y",
+            "amlWarningNotify": "",
+            "comission": "",
+            "oldMinAmount": "",
+            "tagType": "",
+            "showBeneficiary": "",
+            "showCustomer": "",
+            "userId": "",
+            "seoRateCode": "",
+            "queryHash": "d984b6912dd6e96c96602c6f964974",
+            "isRepeatedFromOrder": "",
+            "currencyToIsSbp": "N",
+            "canProvideAdditionalSbpRequisites": "N",
+            "errors": []
+        }
+    }
+}
