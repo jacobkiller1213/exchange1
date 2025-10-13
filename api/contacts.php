@@ -7,23 +7,23 @@ $arr = [
 		"contacts" => [
 			[
 				"title"       => "По вопросам сотрудничества",
-				"contact"     => "partners@CoinFiber",
+				"contact"     => "partners@BixBite",
 				"description" => "",
-				"link"        => "mailto:partners@CoinFiber",
+				"link"        => "mailto:partners@BixBite",
 				"icon"        => "email"
 			],
 			[
-				"title"       => "Служба поддержки CoinFiber",
-				"contact"     => "mail@CoinFiber",
+				"title"       => "Служба поддержки BixBite",
+				"contact"     => "mail@BixBite",
 				"description" => "",
-				"link"        => "mailto:mail@CoinFiber",
+				"link"        => "mailto:mail@BixBite",
 				"icon"        => "email"
 			],
 			[
-				"title"       => "Служба поддержки CoinFiber в Telegram",
+				"title"       => "Служба поддержки BixBite в Telegram",
 				"contact"     => "напишите нам",
 				"description" => "<p>Внимание! Переходите в телеграм канал по ссылкам только с нашего сайта, остерегайтесь фейков и мошенников.</p>",
-				"link"        => "https://t.me/coinfiber_com",
+				"link"        => "https://t.me/BixBite_com",
 				"icon"        => "teleg2"
 			]
 		]

@@ -185,7 +185,7 @@
 
                               (0, i._)("div", b, [
                                 (0, i._)("a", {
-                                  href: "https://t.me/coinfiber_com",
+                                  href: "https://t.me/BixBite_com",
                                   target: "_blank",
                                   class: "footer__channel"
                                 }, [
