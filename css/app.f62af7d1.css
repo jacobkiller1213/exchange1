@@ -840,7 +840,7 @@ input[type="date"]:before {
 }
 @media only screen and (max-width: 767px) {
   .header__logo .icon-logo {
-    width: 260px;
+    width: 260px !important;
     height: 22px;
   }
 }
@@ -1234,8 +1234,8 @@ input[type="date"]:before {
 }
 @media only screen and (max-width: 1240px) {
   .footer__logo .icon {
-    width: fit-content !important;
-    max-width: 150px;
+    width: 100%;
+    max-width: 165px;
     height: 26px;
   }
 }
