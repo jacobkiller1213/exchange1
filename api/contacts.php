@@ -7,23 +7,23 @@ $arr = [
 		"contacts" => [
 			[
 				"title"       => "По вопросам сотрудничества",
-				"contact"     => "partners@CoinFiber",
+				"contact"     => "partners@AsteriChain",
 				"description" => "",
-				"link"        => "mailto:partners@CoinFiber",
+				"link"        => "mailto:partners@AsteriChain",
 				"icon"        => "email"
 			],
 			[
-				"title"       => "Служба поддержки CoinFiber",
-				"contact"     => "mail@CoinFiber",
+				"title"       => "Служба поддержки AsteriChain",
+				"contact"     => "mail@AsteriChain",
 				"description" => "",
-				"link"        => "mailto:mail@CoinFiber",
+				"link"        => "mailto:mail@AsteriChain",
 				"icon"        => "email"
 			],
 			[
-				"title"       => "Служба поддержки CoinFiber в Telegram",
+				"title"       => "Служба поддержки AsteriChain в Telegram",
 				"contact"     => "напишите нам",
 				"description" => "<p>Внимание! Переходите в телеграм канал по ссылкам только с нашего сайта, остерегайтесь фейков и мошенников.</p>",
-				"link"        => "https://t.me/coinfiber_com",
+				"link"        => "https://t.me/AsteriChain_ex",
 				"icon"        => "teleg2"
 			]
 		]

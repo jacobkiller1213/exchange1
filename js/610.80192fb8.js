@@ -253,7 +253,7 @@
                               h,
                               (0, i.Wm)(
                                 "a",
-                                { class: "partner__add-action", href: "https://t.me/coinfiber_com" },
+                                { class: "partner__add-action", href: "https://t.me/AsteriChain_ex" },
                                 {
                                   default: (0, i.w5)(() => [
                                     (0, i.Uk)(

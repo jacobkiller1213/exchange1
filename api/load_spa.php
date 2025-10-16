@@ -14,7 +14,7 @@ $arr = [
 			"maintenance"       => "no",
 			"mobileIsActive"    => "Y",
 			"contactEmail"      => "mail@exhub.io",
-			"contactTelegram"   => "CoinFiber",
+			"contactTelegram"   => "AsteriChain",
 			"cashIsActive"      => "N",
 			"maxFileUploadSize" => "8808038"
 		],

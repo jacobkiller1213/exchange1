@@ -596,7 +596,7 @@
                                   (0, i._)(
                                     "span",
                                     null,
-                                    "CoinFiber, " +
+                                    "AsteriChain, " +
                                       (0, a.zw)(
                                         (0, s.SU)(l).chat.exchangeCreatedAt
                                       ),
@@ -712,7 +712,7 @@
                                                 (0, i._)(
                                                   "span",
                                                   null,
-                                                  " CoinFiber, " +
+                                                  " AsteriChain, " +
                                                     (0, a.zw)(r.createdAt),
                                                   1
                                                 ),

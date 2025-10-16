@@ -185,7 +185,7 @@
 
                               (0, i._)("div", b, [
                                 (0, i._)("a", {
-                                  href: "https://t.me/coinfiber_com",
+                                  href: "https://t.me/AsteriChain_ex",
                                   target: "_blank",
                                   class: "footer__channel"
                                 }, [

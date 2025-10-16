@@ -10,8 +10,8 @@ $array = [
         "settings" => [
             "maintenance" => "no",
             "mobileIsActive" => "Y",
-            "contactEmail" => "mail@CoinFiber",
-            "contactTelegram" => "CoinFiber",
+            "contactEmail" => "mail@AsteriChain",
+            "contactTelegram" => "AsteriChain",
             "cashIsActive" => "N",
             "maxFileUploadSize" => "8808038"
         ]
