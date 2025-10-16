@@ -1241,7 +1241,7 @@ input[type="date"]:before {
 }
 @media only screen and (max-width: 767px) {
   .footer__logo .icon {
-    width: fit-content;
+    /* width: fit-content; */
     height: 22px;
   }
 }
