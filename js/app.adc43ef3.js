@@ -1062,7 +1062,7 @@
                               default: (0, n.w5)(() => [
                                 (0, n.Wm)(l.Z, {
                                   name: "logo",
-                                  view: "0 0 207 29",
+                                  view: "0 0 212 29",
                                   class: "icon-logo",
                                 }),
                               ]),
@@ -1422,7 +1422,7 @@
                           ? ((0, n.wg)(),
                             (0, n.iD)("div", Le, [
                               (0, n.Wm)(l.Z, {
-                                view: "0 0 207 29",
+                                view: "0 0 212 29",
                                 name: "logo_footer",
                                 class: "icon",
                               }),
@@ -1438,7 +1438,7 @@
                               {
                                 default: (0, n.w5)(() => [
                                   (0, n.Wm)(l.Z, {
-                                    view: "0 0 207 29",
+                                    view: "0 0 212 29",
                                     name: "logo_footer",
                                     class: "icon",
                                   }),
